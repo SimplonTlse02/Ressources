@@ -1,13 +1,14 @@
 # Composer Install & Github Tokens
 Date : 29.02.2016
 Auteur : Sébastien
+
 ## Problème
 Lors de l'installation avec 
-$ composer install
-$ Could not fetch https://api.github.com/repos/symfony/polyfill-mbstring/zipball/XXXXXXXXXXXXXXXXXXXXXXXXXXXX, please $ create a GitHub OAuth token to go over the API rate limit
-$ Head to https://github.com/settings/tokens/new?scopes=repo&description=ComposerXXXXXXXXXXXXX
-$ to retrieve a token. It will be stored in "/home/vagrant/.composer/auth.json" for future use by Composer.
-$ Token (hidden): 
+> composer install
+> Could not fetch https://api.github.com/repos/symfony/polyfill-mbstring/zipball/XXXXXXXXXXXXXXXXXXXXXXXXXXXX, please create a GitHub OAuth token to go over the API rate limit
+> Head to https://github.com/settings/tokens/new?scopes=repo&description=ComposerXXXXXXXXXXXXX
+> to retrieve a token. It will be stored in "/home/vagrant/.composer/auth.json" for future use by Composer.
+> Token (hidden): 
 
 ## Solution
 Créer un token Github et l'ajouter au composer.json
