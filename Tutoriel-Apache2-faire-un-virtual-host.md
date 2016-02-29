@@ -112,9 +112,8 @@ Maintenant nous allons nous rendre dans `sites-availlables` et faite votre petit
 > `gedit 000-default.conf`
 > 
 >Et comme nous sommes toujours en super utilisateur nous n'avons pas besoin du sudo.
-
-
-![Imgur](http://i.imgur.com/ZZJpLH0.png)
+> 
+> ![Imgur](http://i.imgur.com/ZZJpLH0.png)
 
 - Puis allons modifier que deux petites lignes.
 > La ligne qui contient :
@@ -157,10 +156,9 @@ On y est presque reste plus que ce fichier quelque manipulation puis c'est fini.
 ![Imgur](http://i.imgur.com/JQvmt2j.png)
 
 
- Et pour finir il faudra relancer le serveur apache2 en faisant `service apache2 restart` afin qu'il prenne les modifications en compte.
+ - Et pour finir il faudra relancer le serveur apache2 en faisant `service apache2 restart` afin qu'il prenne les modifications en compte.
 
-
-- Voilà maintenant vous pouvez sortir du mode super utilisateur pour ne pas faire de bêtise en faisant `exit` puis on passera à la suite.
+ Voilà maintenant vous pouvez sortir du mode super utilisateur pour ne pas faire de bêtise en faisant `exit` puis on passera à la suite.
 
  4.Activer son sites :
 
