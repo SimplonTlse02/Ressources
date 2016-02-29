@@ -112,8 +112,9 @@ Maintenant nous allons nous rendre dans `sites-availlables` et faite votre petit
 > `gedit 000-default.conf`
 > 
 >Et comme nous sommes toujours en super utilisateur nous n'avons pas besoin du sudo.
-> 
-> ![Imgur](http://i.imgur.com/ZZJpLH0.png)
+
+
+![Imgur](http://i.imgur.com/ZZJpLH0.png)
 
 - Puis allons modifier que deux petites lignes.
 > La ligne qui contient :
