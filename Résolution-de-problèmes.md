@@ -23,3 +23,30 @@ ou copier coller le lien donnée par la console (attention, à faire immédiatem
 ## Ressources
 * http://latcoding.com/2015/09/07/composer-problem-token-hidden-on-github/
 * https://github.com/settings/tokens
+
+# Probleme avec la cle SSH
+Date: 29/02/16
+
+Auteur: Mehdi
+
+## Probleme
+
+Quand vous essayez de cloné un repo avec SSH et que ça met 
+
+> Agent admitted failure to sign using the key
+
+## Solution
+dans la console mettre 
+
+> eval "$(ssh-agent -s)"
+
+Ensuite toujours dans la console
+
+> ssh-add
+
+Normalement votre git clone marche
+
+## Ressouces
+
+*https://help.github.com/articles/error-agent-admitted-failure-to-sign/
+
