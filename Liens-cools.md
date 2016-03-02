@@ -6,6 +6,7 @@ Merci de conserver le format et de ranger correctement les liens.
 
 * [Web](#web)
 * [Linux](#linux)
+* [Git](#git)
 * [Html](#html)
 * [Css](#css)
 * [Php](#php)
@@ -18,6 +19,11 @@ Merci de conserver le format et de ranger correctement les liens.
 * https://openclassrooms.com/courses/comprendre-le-web
 
 # Linux
+* https://openclassrooms.com/courses/reprenez-le-controle-a-l-aide-de-linux
+
+# Git
+* https://openclassrooms.com/courses/gerer-son-code-avec-git-et-github
+* https://git-scm.com/book/fr/v2
 
 # Html
 * https://openclassrooms.com/courses/apprenez-a-creer-votre-site-web-avec-html5-et-css3
