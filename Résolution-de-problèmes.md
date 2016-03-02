@@ -4,6 +4,8 @@
 * [Laravel - Whoops](#laravel---whoops)
 * [Laravel - Page blanche](#laravel---page-blanche)
 
+----------
+
 # Composer Install & Github Tokens
 Date : 29.02.2016
 
@@ -29,6 +31,8 @@ ou copier coller le lien donnée par la console (attention, à faire immédiatem
 ## Ressources
 * http://latcoding.com/2015/09/07/composer-problem-token-hidden-on-github/
 * https://github.com/settings/tokens
+
+----------
 
 # Probleme avec la cle SSH
 Date: 29/02/16
