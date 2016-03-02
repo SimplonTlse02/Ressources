@@ -1,5 +1,5 @@
 # Sommaire
-[Composer Install & Github Tokens](Composer-Install-&-Github-Tokens)
+[Composer Install & Github Tokens](#composer-install--github-tokens)
 
 # Composer Install & Github Tokens
 Date : 29.02.2016
