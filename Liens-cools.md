@@ -11,6 +11,8 @@ Merci de conserver le format et de ranger correctement les liens.
 * [Php](#php)
 * [Laravel](#laravel)
 * [React](#react)
+* [MVC](#mvc)
+* [Api](#api)
 
 # Web
 * https://openclassrooms.com/courses/comprendre-le-web
@@ -39,3 +41,12 @@ Merci de conserver le format et de ranger correctement les liens.
 
 # React
 * http://www.reactjsprogram.com/#courses
+
+# MVC
+* https://fr.wikipedia.org/wiki/Mod%C3%A8le-vue-contr%C3%B4leur
+* https://openclassrooms.com/courses/concevez-votre-site-web-avec-php-et-mysql/organiser-son-code-selon-l-architecture-mvc
+
+# Api
+* https://fr.wikipedia.org/wiki/Interface_de_programmation
+* https://fr.wikipedia.org/wiki/Representational_State_Transfer
+* https://www.youtube.com/watch?v=QpAhXa12xvU
