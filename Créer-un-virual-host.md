@@ -75,11 +75,11 @@ _____
 Si vous faites un `ls` de nombreux fichiers sont apparus logiquement mais n'ayait craintes ce sera plus amusant que vous pensez.
 
 ####apache2.conf : 
-- Donc pour commencer nous allons ouvrir un nouvelle onglet dans le terminal qui nous servira dans quelque minute : `ctrl+shift+t`
+- Donc pour commencer nous allons ouvrir un nouvel onglet dans le terminal qui nous servira dans quelques minutes : `ctrl+shift+t`
 
-- Nous allons tous d'abord modifier le fichier ```apache2.conf```(comme on est en super utilisateur pas besoin de sudo)
+- Nous allons tout d'abord modifier le fichier ```apache2.conf```(comme on est en super utilisateur pas besoin de sudo)
 
->**Note :** j'utilise gedit peut importe sera votre éditeur de texte ou IDE sa marchera dans tous les cas.
+>**Note :** j'utilise gedit peut importe sera votre éditeur de texte ou IDE ça marchera dans tous les cas.
 >
 >`gedit apache2.conf`
 >
@@ -95,12 +95,12 @@ Si vous faites un `ls` de nombreux fichiers sont apparus logiquement mais n'ayai
 ```
 >Il faudra dupliquer ce bout de code en faisant un simple copier/coller, puis enlever les dièse (#) pour enlever le code en mode commentaire
 
-- Plus qu'une dernière étape pour ce fichier il vous restera à partir sur le deuxième onglet que nous avons ouvert sur la console pour connaitre le chemin exacte de notre dossier ```monsupersite``` 
+- Plus qu'une dernière étape pour ce fichier il vous restera à partir sur le deuxième onglet que nous avons ouvert sur la console pour connaitre le chemin exact de notre dossier ```monsupersite``` 
 
 >pour cela il faudra taper cette commande dans la console :
 > `pwd`
-> puis il vous faudra remplacer dans la ligne où il y à le ```<Directory /srv/>``` ,
-> la où il y à le /srv/ par le chemin de votre fichier,
+> puis il vous faudra remplacer dans la ligne où il y a le ```<Directory /srv/>``` ,
+> la où il y a le /srv/ par le chemin de votre fichier,
 > puis remplacer le **None** là où il y a ```AllowOverride None``` par **All** pour donner le droit d'écriture et de lecture
 > 
 > ![Imgur](http://i.imgur.com/8Xpbxgv.png)
@@ -162,7 +162,7 @@ On y est presque reste plus que ce fichier quelque manipulation puis c'est fini.
     ff02::1 ip6-allnodes
     ff02::2 ip6-allrouters```
 
-Il faudra rajouter une ligne suplémentaire avec `127.0.0.1` en dessout de ` 127.0.1.1 nutela-All-Serie` puis rajouter votre DNS, après cela comme d'habitude il faudrat faire un `ctrl+s` pour sauvegarder les modifications.
+Il faudra rajouter une ligne suplémentaire avec `127.0.0.1` en dessout de ` 127.0.1.1 nutela-All-Serie` puis rajouter votre DNS, après cela comme d'habitude il faudra faire un `ctrl+s` pour sauvegarder les modifications.
 
 ![Imgur](http://i.imgur.com/JQvmt2j.png)
 
@@ -181,7 +181,7 @@ Ne vous inquiéter pas ce n'est pas la fin du monde on a juste à taper une comm
 
 >`sudo a2ensite monsupersite.conf`
 > puis il vous restera à redémarrer apache2
-> et le tour et jouer.
+> et le tour et joué.
 
 Si vous tapez votre DNS sur l'internet vous allez voir cette page
 
