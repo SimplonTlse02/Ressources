@@ -1,10 +1,27 @@
+
 # Sommaire
-* [Composer Install & Github Tokens](#composer-install--github-tokens)
+* [Composer Install & Github Tokens]#composer-install--github-tokens)
 * [ Probleme avec la cle SSH](#probleme-avec-la-cle-ssh)
 * [Laravel - Whoops](#laravel---whoops)
 * [Laravel - Page blanche](#laravel---page-blanche)
+* [Réactiver connection WIFI caché]
 
 ----------
+
+# Réactionner réseau WIFI caché
+Date : 07.03.2016 
+Auteur : Karine 
+
+## Probleme pour réactiver la connection caché "SimplonMIP"
+D'abord, "edit connection" ds la recherche WIFI, puis sélectionner celui utilisé d'habitude: ex SIMPLON MIP
+EDIT
+MODE : paramétrer avec "infrastructure"
+SAVE
+et relancer dans le choix des reseaux pr qui l'icone réapparaisse en "WIFI"
+> screen shot correspondant : 
+https://cloud.githubusercontent.com/assets/16001498/13570884/6c4e5814-e471-11e5-8062-c7e1e01e33c7.png
+
+-------------
 
 # Composer Install & Github Tokens
 Date : 29.02.2016
@@ -41,7 +58,7 @@ Auteur: Mehdi
 
 ## Probleme
 
-Quand vous essayez de cloné un repo avec SSH et que ça met 
+Quand vous essayez de cloner un repo avec SSH et que ça met 
 
 > Agent admitted failure to sign using the key
 
