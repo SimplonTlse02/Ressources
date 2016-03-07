@@ -12,12 +12,16 @@
 Date : 07.03.2016 
 Auteur : Karine 
 
-## Probleme pour réactiver la connection caché "SimplonMIP"
-D'abord, "edit connection" ds la recherche WIFI, puis sélectionner celui utilisé d'habitude: ex SIMPLON MIP
+## Probleme
+réactiver la connection caché "SimplonMIP"
+
+## Solution
+D'abord, "edit connection" ds la recherche WIFI
+puis sélectionner un de ceux utilisé d'habitude: ex SIMPLON MIP
 EDIT
 MODE : paramétrer avec "infrastructure"
 SAVE
-et relancer dans le choix des reseaux pr qui l'icone réapparaisse en "WIFI"
+relancer dans le choix des reseaux pr que l'icone réapparaisse en "WIFI"
 > screen shot correspondant : 
 https://cloud.githubusercontent.com/assets/16001498/13570884/6c4e5814-e471-11e5-8062-c7e1e01e33c7.png
 
