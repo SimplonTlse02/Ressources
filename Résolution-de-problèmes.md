@@ -1,29 +1,36 @@
 
 # Sommaire
-* [Composer Install & Github Tokens]#composer-install--github-tokens)
+
+* [Réactiver connection WIFI caché](#r%C3%A9-activer-r%C3%A9seau-wifi-cach%C3%A9)
+* [Composer Install & Github Tokens](#composer-install--github-tokens)
 * [ Probleme avec la cle SSH](#probleme-avec-la-cle-ssh)
 * [Laravel - Whoops](#laravel---whoops)
 * [Laravel - Page blanche](#laravel---page-blanche)
-* [Réactiver connection WIFI caché]
 
 ----------
 
-# Réactionner réseau WIFI caché
-Date : 07.03.2016 
+# Ré-Activer réseau WIFI caché
+Date : 07.03.2016
+ 
 Auteur : Karine 
 
 ## Probleme
-réactiver la connection caché "SimplonMIP"
+Réactiver la connection cachée "SimplonMIP". Si elle a l'icône, d'un ordinateur et non plus celle du Wifi.
 
 ## Solution
-D'abord, "edit connection" ds la recherche WIFI
-puis sélectionner un de ceux utilisé d'habitude: ex SIMPLON MIP
-EDIT
-MODE : paramétrer avec "infrastructure"
-SAVE
-relancer dans le choix des reseaux pr que l'icone réapparaisse en "WIFI"
-> screen shot correspondant : 
-https://cloud.githubusercontent.com/assets/16001498/13570884/6c4e5814-e471-11e5-8062-c7e1e01e33c7.png
+D'abord, cliquez sur "edit connection" dans la recherche WIFI,
+puis sélectionner un de ceux utilisés d'habitude: 
+> ex SIMPLON MIP
+
+> EDIT
+
+> MODE : paramétrer avec "infrastructure"
+
+> SAVE
+
+Relancer dans le choix des reseaux pour que l'icône réapparaisse en "WIFI"
+
+![Img](http://i.imgur.com/soskss4.png)
 
 -------------
 
