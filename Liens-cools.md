@@ -25,6 +25,7 @@ Merci de conserver le format et de ranger correctement les liens.
 # Git
 * https://openclassrooms.com/courses/gerer-son-code-avec-git-et-github
 * https://git-scm.com/book/fr/v2
+* https://www.grafikart.fr/formations/git/gitkraken
 
 # Html
 * https://openclassrooms.com/courses/apprenez-a-creer-votre-site-web-avec-html5-et-css3
