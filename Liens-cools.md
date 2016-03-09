@@ -10,6 +10,7 @@ Merci de conserver le format et de ranger correctement les liens.
 * [Html](#html)
 * [Css](#css)
 * [Php](#php)
+* [SQL](#sql)
 * [Laravel](#laravel)
 * [React](#react)
 * [MVC](#mvc)
@@ -41,6 +42,11 @@ Merci de conserver le format et de ranger correctement les liens.
 * https://openclassrooms.com/courses/concevez-votre-site-web-avec-php-et-mysql
 * https://openclassrooms.com/courses/programmez-en-oriente-objet-en-php
 * https://www.youtube.com/playlist?list=PLbLDQI0AILjIKXJLwu8X9SfhmklWpVhUz
+
+# SQL
+* https://openclassrooms.com/courses/administrez-vos-bases-de-donnees-avec-mysql
+* http://sqlzoo.net/wiki/SQL_Tutorial
+* http://docs.sqlalchemy.org/en/rel_0_9/orm/tutorial.html
 
 # Laravel
 
