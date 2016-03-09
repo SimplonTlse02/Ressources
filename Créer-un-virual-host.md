@@ -10,16 +10,16 @@ Auteur: Allan Cerveaux
 Comment créer un virtual host avec apache 2 pour les projets ?
 >**Tuto pour toutes la classe.**
 
-#### Quest-ce que c'est ?
+#### Qu'est-ce que c'est ?
 
-Le Domain Name System (ou DNS, système de noms de domaine) est un service permettant de traduire un nom de domaine en informations de plusieurs types qui y sont associées, notamment en adresses IP de la machine portant ce nom.
+Le Domain Name System (ou DNS, système de nom de domaine) est un service permettant de traduire un nom de domaine en informations de plusieurs types qui y sont associées, notamment en adresses IP de la machine portant ce nom.
 
->source : [Wikipedia(DNS)](https://fr.wikipedia.org/wiki/Domain_Name_System).
+> source : [Wikipedia(DNS)](https://fr.wikipedia.org/wiki/Domain_Name_System).
 
 #### Comment ça marche ?
 
 Un DNS permet d'associer des noms en langage courant aux adresses numériques (adresse ip) grâce à un système appelé DNS
->l'adresse ip  vous ai attribué  par votre :
+>l'adresse ip  vous est attribuée par votre :
 > - Fournisseur d'accés A Internet,
 > - Hébergeur de serveur (OVH...)
 > - ou même un adresse locale
@@ -93,7 +93,7 @@ Si vous faites un `ls` de nombreux fichiers sont apparus logiquement mais n'ayai
 #   Require all granted
 #</Directory>
 ```
->Il faudra dupliquer ce bout de code en faisant un simple copier/coller, puis enlever les dièse (#) pour enlever le code en mode commentaire
+>Il faudra dupliquer ce bout de code en faisant un simple copier/coller, puis enlever les dièses (#) pour enlever le code en mode commentaire
 
 - Plus qu'une dernière étape pour ce fichier il vous restera à partir sur le deuxième onglet que nous avons ouvert sur la console pour connaitre le chemin exact de notre dossier ```monsupersite``` 
 
