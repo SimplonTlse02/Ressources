@@ -32,4 +32,4 @@ Tout d'abord on va télécharger le dossier Wordpress sur les sites officielles.
 
 Il faut positionner le dossier Worpdress dans le dossier ou se trouve votre localhost
 
-![](http://jeromemouly.com/wp-content/uploads/2016/03/dossier-wordpress-1-e1458144209227.png) 
+![](http://jeromemouly.com/wp-content/uploads/2016/03/dossier-wordpress.png) 
