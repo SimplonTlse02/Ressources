@@ -46,4 +46,45 @@ Browser Sync
 ![](http://jeromemouly.com/wp-content/uploads/2016/03/console.png)
 
 
-###4. Paramétrage Wordpress
+###4.  Paramétrage Wordpress
+
+Une fois que vous avez lancer wordpress sur votre localhost il reste encore quelques réglages afin de pouvoir accéder au Tableau de bord.
+
+
+   * 4.1 Configuration de la Base de Donnée
+
+![](http://jeromemouly.com/wp-content/uploads/2016/03/install-word.png)
+
+Dans cette fenêtre il suffit de rentrer vos identifiants de votre Base de donnée MySqL ou autres afin de pouvoir vous connecter à Wordpress.
+
+![](http://jeromemouly.com/wp-content/uploads/2016/03/install-Data.png)
+
+__Il est important de changer les 'Préfixes des tables' pour commencer à sécuriser votre site__
+
+Une fois vos paramètres rentrer vous obtiendrez ceci
+
+![](http://jeromemouly.com/wp-content/uploads/2016/03/install-reussi.png)
+
+Qui indique que votre installation de la base de donnée est terminée et que l'on peut passer à l'étape suivante.
+
+   * 4.2 Configuration de Wordpress
+
+Ici vous allez créer vos identifiants pour votre connexion à Wordpress.
+
+![](http://jeromemouly.com/wp-content/uploads/2016/03/config-wordpress.png)
+
+__Il est important de rentrer une adresse mail, c'est celle-ci qui vous permettra de changer votre mot de passe si vous le perdez et également avoir les informations de connexion à wordpress.__
+
+__De plus en cochant 'Visibilité pour les moteurs de recherche' (quand vous installerez wordpress via un hébergeur) vous allez commencez à référencer votre site sur les différents moteur de recherche.__
+
+![](http://jeromemouly.com/wp-content/uploads/2016/03/ident-word.png)
+
+Maintenant il ne reste qu'à vous identifiez
+
+![](http://jeromemouly.com/wp-content/uploads/2016/03/connexion-word.png)
+
+ pour accéder au Tableau de bord de Wordpress.
+
+![](http://jeromemouly.com/wp-content/uploads/2016/03/Dashboard.png)
+
+  
