@@ -1,6 +1,6 @@
 ![](http://jeromemouly.com/wp-content/uploads/2016/03/svgporn-wordpress-2.png) 
 
-# Tutoriel Installation Wordpress En Local
+# Tutoriel installation Wordpress En Local
 
 ----
 
@@ -18,7 +18,7 @@ Avoir une installation de [LAMP](https://doc.ubuntu-fr.org/lamp) sur sa machine.
 
 ----
 
-##1. Télécharger Wordpress
+###1. Télécharger Wordpress
 
 Tout d'abord on va télécharger le dossier Wordpress sur les sites officielles.
 
@@ -27,9 +27,23 @@ Tout d'abord on va télécharger le dossier Wordpress sur les sites officielles.
 [Wordpress en Anglais](https://wordpress.org/)
 
 
-
 ###2. Positionner le dossier Wordpress
 
 Il faut positionner le dossier Worpdress dans le dossier ou se trouve votre localhost
 
 ![](http://jeromemouly.com/wp-content/uploads/2016/03/dossier-wordpress.png) 
+
+
+----
+
+###3. Méthode pour la visualisation de wordpress
+
+Browser Sync
+
+> browser-sync start --server --files="*.html,css/*.css,js/*.js"
+
+
+![](http://jeromemouly.com/wp-content/uploads/2016/03/console.png)
+
+
+###4. Paramétrage Wordpress
