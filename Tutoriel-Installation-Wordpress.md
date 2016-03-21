@@ -61,7 +61,7 @@ Dans cette fenêtre il suffit de rentrer vos identifiants de votre Base de donn�
 
 __Il est important de changer les 'Préfixes des tables' pour commencer à sécuriser votre site__
 
-Une fois vos paramètres rentrer vous obtiendrez ceci
+Une fois vos paramètres rentrés vous obtiendrez ceci
 
 ![](http://jeromemouly.com/wp-content/uploads/2016/03/install-reussi.png)
 
