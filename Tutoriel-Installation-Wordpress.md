@@ -55,7 +55,7 @@ Une fois que vous avez lancer wordpress sur votre localhost il reste encore quel
 
 ![](http://jeromemouly.com/wp-content/uploads/2016/03/install-word.png)
 
-Dans cette fenêtre il suffit de rentrer vos identifiants de votre Base de donnée MySqL ou autres afin de pouvoir vous connecter à Wordpress.
+Dans cette fenêtre il suffit de rentrer vos identifiants de votre Base de donnée MySqL ou autres (NinjaDB, Maria DB ...) afin de pouvoir vous connecter à Wordpress.
 
 ![](http://jeromemouly.com/wp-content/uploads/2016/03/install-Data.png)
 
@@ -79,7 +79,7 @@ __De plus en cochant 'Visibilité pour les moteurs de recherche' (quand vous ins
 
 ![](http://jeromemouly.com/wp-content/uploads/2016/03/ident-word.png)
 
-Maintenant il ne reste qu'à vous identifiez
+Maintenant il ne reste qu'à vous identifier
 
 ![](http://jeromemouly.com/wp-content/uploads/2016/03/connexion-word.png)
 
