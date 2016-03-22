@@ -7,7 +7,7 @@
 
 Pour installer des plugins sur wordpress vous avez deux possibilités :
 
-La première est de télécharger le plugin via [Wordpress en Français](https://fr.wordpress.org/plugins/) ou [Wordpress en Anglais](https://wordpress.org/plugins/). Vous allez récupérer le dossier du plugin et l'installation se fera via un client FTP du type [FileZilla](https://filezilla-project.org/) en le positionnant dans le wp-content/plugins ou en le copiant et le collant dans le plugin qui se trouve dans wp-content/plugins.
+La première est de télécharger le plugin via [Wordpress en Français](https://fr.wordpress.org/plugins/) ou [Wordpress en Anglais](https://wordpress.org/plugins/). Vous allez récupérer le dossier du plugin et l'installation se fera via un client FTP du type [FileZilla](https://filezilla-project.org/) en le positionnant dans le wp-content/plugins.
 
 ![](http://jeromemouly.com/wp-content/uploads/2016/03/filezilla.png)
 
@@ -16,7 +16,7 @@ La deuxième façon est de passer par le tableau de bord de Wordpress.
 
 ![](http://jeromemouly.com/wp-content/uploads/2016/03/Dashboard.png)
 
-Dans la barre de menu à droite se trouve une partie extension
+Dans la barre de menu à gauche se trouve une partie extension.
 
 ![](http://jeromemouly.com/wp-content/uploads/2016/03/word-extension.png)
 
@@ -25,7 +25,23 @@ Pour accéder à toutes les extensions disponibles et gratuites il vous suffit d
 
 ![](http://jeromemouly.com/wp-content/uploads/2016/03/page-extension.png)
 
+Puis dans le champ de recherche (en haut à gauche) vous pouvez rechercher directement un plugin. 
+
+Voici un exemple : ici j'ai recherché un formulaire de contact. Connaissant le plugin que je recherche, j'ai tapé son nom dans le champ de recherche.
+
+![](http://jeromemouly.com/wp-content/uploads/2016/03/formulaire.png)
+
+J'ai choisi de prendre Contact Form 7
+
+![](http://jeromemouly.com/wp-content/uploads/2016/03/cf7.png)
+
+Vous avez la possibilité soit de l'installer directement ou de l'installer à partir de la fiche descriptif de celui-ci.
+
+![](http://jeromemouly.com/wp-content/uploads/2016/03/carc-cf7.png)
+
+
 ##Les Plugins de Sécurité
+
 
 
 
