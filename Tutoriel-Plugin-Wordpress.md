@@ -102,4 +102,8 @@ Plugin permettant d'analyser le trafic sur votre site Wordpress
 ![](http://jeromemouly.com/wp-content/uploads/2016/03/broken-link.png)
 
 
+##Pour finir
 
+Il existe de nombreux plugin pour à peu près tout ce qui concerne un site internet.
+
+Vidéo, Audio, Photo, Carrousel, Parallax, OnePage et bien d'autres encore.
