@@ -57,6 +57,13 @@ Plugin permettant la sécurisation de votre site Wordpress (version prenium disp
 ![](http://jeromemouly.com/wp-content/uploads/2016/03/wordfence.png)
 
 
+###WP Limit Login Attempts
+
+Plugin utilisant un système de blocage si les identifiants sont mal rentrés.
+
+![](http://jeromemouly.com/wp-content/uploads/2016/03/limit-login-attempts.png)
+
+
 ###Akismet
 
 Plugin bloqueur de spam des commentaires (inclus dans Wordpress à l'installation et nécessite une inscription sur le site pour récupérer une clé, version prenium disponible augmentant les fonctionnalités).
