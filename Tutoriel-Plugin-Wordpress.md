@@ -106,4 +106,4 @@ Plugin permettant d'analyser le trafic sur votre site Wordpress
 
 Il existe de nombreux plugin pour à peu près tout ce qui concerne un site internet.
 
-Vidéo, Audio, Photo, Carrousel, Parallax, OnePage et bien d'autres encore.
+Vidéo, Audio, Photo, Slider, Gallery, Parallax, OnePage, Réseaux Sociaux et bien d'autres encore comme la customisation de la scroll barre ;).
