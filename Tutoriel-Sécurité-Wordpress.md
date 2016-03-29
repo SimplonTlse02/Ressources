@@ -19,18 +19,21 @@ Ce procéder est accessible via un programme FTP ou en faisant in click droit pr
 Tout d'abord vous allez ajouter les lignes suivantes en bas dans le fichiers .htaccess :
 
 Ces lignes de code vont protéger votre fichier wp-config.php.
-` <files wp-config.php>
+
+`<files wp-config.php>
  order allow,deny
  deny from all
  </files>`
 
 Ces lignes de code vont protéger votre fichier .htaccess.
+
 `<files .htaccess>
 order allow,deny
 deny from all
 </files>`
 
 Ces lignes de code vont cacher les répertoires sensibles.
+
 `Options All -Indexes`
 
 
@@ -38,9 +41,11 @@ Ensuite vous allez modifier en bas le fichier functions.php dans wp-content/them
 
 
 Ces lignes de code vont masquer votre version de Wordpress.
+
 `remove_action("wp_head", "wp_generator");`
 
 Ces lignes de code vont masquer votre version de Wordpress via le flux RSS.
+
 `function wpt_remove_version() {
 return ''; }
 add_filter('the_generator', 'wpt_remove_version');`
