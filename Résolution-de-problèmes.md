@@ -6,7 +6,7 @@
 * [ Probleme avec la cle SSH](#probleme-avec-la-cle-ssh)
 * [Laravel - Whoops](#laravel---whoops)
 * [Laravel - Page blanche](#laravel---page-blanche)
-* [wordpress - problemes mise a jours , installation theme plugin et probleme edit image](#wordpress-problemes)
+* [wordpress - problemes mise a jours , installation theme plugin et probleme edit image](#wordpress-problemes-mise-a-jours-installation-theme-plugin-et-probleme-edit-image)
 
 ----------
 
@@ -117,7 +117,7 @@ Si avec laravel, la page reste blanche, le problème ne vient pas de Laravel mai
 Voir les logs d'Apache /var/logs/apache2/error.log
 
 -----------
-# wordpress-problemes
+# wordpress-problemes-mise-a-jours-installation-theme-plugin-et-probleme-edit-image
 
 Date: 29/03/2016
 
