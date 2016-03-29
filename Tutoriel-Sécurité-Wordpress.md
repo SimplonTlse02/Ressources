@@ -59,3 +59,15 @@ De plus toutes ces modifications sont à ajouter au changement des 'Préfixe des
 et également en ajoutant des plugins de sécurité supplémentaires.
 
 Vous pouvez suivre [ce tutoriel](https://github.com/SimplonTlse/Ressources/wiki/Tutoriel-Plugin-Wordpress) .
+
+Voici quelques liens sur la sécurité pour son site Wordpress
+
+[15 rappels de Sécurité pour WordPress](http://wpformation.com/11-rappels-securite-wordpress/)
+
+[Sécuriser efficacement son site WordPress](http://www.fabricecourt.com/formation/securiser-efficacement-son-site-wordpress/)
+
+[Sécuriser WordPress – L’installation](http://korben.info/securiser-wordpress-installation.html)
+
+[Comment sécuriser son site Wordpress en quelques minutes ?](http://www.atchik-services.com/blog/webmarketing/securiser-site-blog-wordpress)
+
+[20 astuces pour sécuriser votre site WordPress](http://blog.netapsys.fr/securisation-de-votre-site-wordpress/)
