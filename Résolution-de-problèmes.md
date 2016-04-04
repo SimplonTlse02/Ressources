@@ -7,7 +7,7 @@
 * [Laravel - Whoops](#laravel---whoops)
 * [Laravel - Page blanche](#laravel---page-blanche)
 * [wordpress - problemes mise a jours , installation theme plugin](#wordpress-problemes-mise-a-jours-installation-theme-plugin)
-* [wordpress - probleme edit image](#wordpress-problem-edit-image)
+* [wordpress - probleme edit image](#wordpress-probleme-edit-image)
 ----------
 
 # Ré-Activer réseau WIFI caché
@@ -131,7 +131,7 @@ On a changé les droits en donnant l'accée a l'utilisateur apache uniquement : 
 trouvé ici http://stackoverflow.com/questions/13120226/wordpress-localhost-ftp
 
 -----------
-# wordpress probleme edit image
+# wordpress-probleme-edit-image
 
 Date: 29/03/2016
 
