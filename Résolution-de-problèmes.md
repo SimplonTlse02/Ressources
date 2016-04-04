@@ -6,8 +6,8 @@
 * [ Probleme avec la cle SSH](#probleme-avec-la-cle-ssh)
 * [Laravel - Whoops](#laravel---whoops)
 * [Laravel - Page blanche](#laravel---page-blanche)
-* [wordpress - problemes mise a jours , installation theme plugin et probleme edit image](#wordpress-problemes-mise-a-jours-installation-theme-plugin-et-probleme-edit-image)
-
+* [wordpress - problemes mise a jours , installation theme plugin](#wordpress-problemes-mise-a-jours-installation-theme-plugin)
+* [wordpress probleme edit image](#wordpress-problem-edit-image)
 ----------
 
 # Ré-Activer réseau WIFI caché
@@ -117,21 +117,30 @@ Si avec laravel, la page reste blanche, le problème ne vient pas de Laravel mai
 Voir les logs d'Apache /var/logs/apache2/error.log
 
 -----------
-# wordpress problemes mise-a-jours installation theme plugin et probleme edit image
+# wordpress problemes mise-a-jours installation theme plugin
 
 Date: 29/03/2016
 
 Auteur: anis
 
 ## Problèmes
-1.En voulant faire les mise a jour, installer des thème ou des plugin depuis l'interface wordpress en local sous apache2 il me demande l'accès à hôte via identifiant FTP
-
-2.Si vous rencontré cet Erreur sur la fonctionalité modif (EDIT) des image : Unable to create new image wordpress( recadrer ) Echec lors de la création d'une nouvelle image 
+En voulant faire les mise a jour, installer des thème ou des plugin depuis l'interface wordpress en local sous apache2 il me demande l'accès à hôte via identifiant FTP
 
 ## Solutions
-1.On a changé les droits en donnant l'accée a l'utilisateur apache uniquement : sudo chown -R www-data:www-data wordpress sur le dossier wordpress pour donner accée a l'utilisateur apache uniquement Et sur le fichier de wp-config on ajoute define('FS_METHOD', 'direct');
+On a changé les droits en donnant l'accée a l'utilisateur apache uniquement : sudo chown -R www-data:www-data wordpress sur le dossier wordpress pour donner accée a l'utilisateur apache uniquement Et sur le fichier de wp-config on ajoute define('FS_METHOD', 'direct');
 trouvé ici http://stackoverflow.com/questions/13120226/wordpress-localhost-ftp
 
-2.faut que sur le coté serveur(local ou a distance) on installe la librarie gd image library et redemarer le serveur apache : https://www.digitalocean.com/community/questions/how-to-enable-the-gd-image-library-for-wordpress http://www.cyberciti.biz/faq/ubuntu-linux-install-or-add-php-gd-support-to-apache/
+-----------
+# wordpress probleme edit image
+
+Date: 29/03/2016
+
+Auteur: anis
+
+## Problèmes
+Si vous rencontré cet Erreur sur la fonctionalité modif (EDIT) des image : Unable to create new image wordpress( recadrer ) Echec lors de la création d'une nouvelle image 
+
+## Solutions
+faut que sur le coté serveur(local ou a distance) on installe la librarie gd image library et redemarer le serveur apache : https://www.digitalocean.com/community/questions/how-to-enable-the-gd-image-library-for-wordpress http://www.cyberciti.biz/faq/ubuntu-linux-install-or-add-php-gd-support-to-apache/
 
 sudo apt-get install php5-gd
