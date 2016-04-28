@@ -24,6 +24,7 @@ Merci de conserver le format et de ranger correctement les liens.
 
 # Git
 * https://openclassrooms.com/courses/gerer-son-code-avec-git-et-github
+* http://pcottle.github.io/learnGitBranching/
 * https://git-scm.com/book/fr/v2
 * https://www.grafikart.fr/formations/git/gitkraken
 
