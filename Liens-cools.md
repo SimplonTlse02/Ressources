@@ -32,6 +32,7 @@ Merci de conserver le format et de ranger correctement les liens.
 
 # Css
 * http://flexboxfroggy.com/
+* http://www.flexboxpatterns.com/
 
 # Javascript
 * https://openclassrooms.com/courses/apprenez-a-coder-avec-javascript
