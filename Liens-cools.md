@@ -40,6 +40,7 @@ Merci de conserver le format et de ranger correctement les liens.
 * https://openclassrooms.com/courses/dynamisez-vos-sites-web-avec-javascript
 * http://fr.eloquentjavascript.net/contents.html
 * https://developer.mozilla.org/fr/docs/Web/JavaScript/Guide
+* http://www.daveweb.fr/blog/vos-cartes-de-france-cliquables-avec-jquery-vector-maps-et-jvector-map.html
 
 # Php
 * https://openclassrooms.com/courses/concevez-votre-site-web-avec-php-et-mysql
