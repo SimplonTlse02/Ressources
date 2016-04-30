@@ -1,6 +1,6 @@
 Voici un annueaire des liens trop cools à s'échanger. Les liens sont classés par catégorie et par ordre de niveau : du plus accessible au plus avancé.
 
-Merci de conserver le format et de ranger correctement les liens.
+Merci de conserver le format et de ranger correctement les liens. Les jeux éduatifs vont dans la page Ludothèque.
 
 # Sommaire
 
@@ -22,7 +22,6 @@ Merci de conserver le format et de ranger correctement les liens.
 * https://openclassrooms.com/courses/apprenez-a-creer-votre-site-web-avec-html5-et-css3
 
 # Css
-* http://flexboxfroggy.com/
 * http://www.flexboxpatterns.com/
 
 # Javascript
@@ -48,6 +47,7 @@ Merci de conserver le format et de ranger correctement les liens.
 
 # React
 * http://www.reactjsprogram.com/#courses
+* https://egghead.io/series/react-fundamentals
 
 # MVC
 * https://fr.wikipedia.org/wiki/Mod%C3%A8le-vue-contr%C3%B4leur
