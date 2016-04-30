@@ -39,6 +39,7 @@ Merci de conserver le format et de ranger correctement les liens.
 
 # SQL
 * https://openclassrooms.com/courses/administrez-vos-bases-de-donnees-avec-mysql
+* http://sql.learncodethehardway.org/book/
 * http://sqlzoo.net/wiki/SQL_Tutorial
 * http://docs.sqlalchemy.org/en/rel_0_9/orm/tutorial.html
 
