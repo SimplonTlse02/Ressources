@@ -4,17 +4,7 @@ Merci de conserver le format et de ranger correctement les liens.
 
 # Sommaire
 
-* [Web](#web)
-* [Linux](#linux)
-* [Git](#git)
-* [Html](#html)
-* [Css](#css)
-* [Php](#php)
-* [SQL](#sql)
-* [Laravel](#laravel)
-* [React](#react)
-* [MVC](#mvc)
-* [Api](#api)
+[Web](#web) - [Linux](#linux) - [Git](#git) - [Html](#html) - [Css](#css) - [Php](#php) - [SQL](#sql)-  [Laravel](#laravel) - [React](#react) - [MVC](#mvc) - [Api](#api)
 
 # Web
 * https://openclassrooms.com/courses/comprendre-le-web
