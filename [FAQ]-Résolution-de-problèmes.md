@@ -1,6 +1,3 @@
-
-# Sommaire
-
 * [Réactiver connection WIFI caché](#r%C3%A9-activer-r%C3%A9seau-wifi-cach%C3%A9)
 * [Composer Install & Github Tokens](#composer-install--github-tokens)
 * [ Probleme avec la cle SSH](#probleme-avec-la-cle-ssh)
