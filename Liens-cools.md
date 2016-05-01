@@ -1,6 +1,6 @@
 Voici un annueaire des liens trop cools à s'échanger. Les liens sont classés par catégorie et par ordre de niveau : du plus accessible au plus avancé.
 
-Merci de conserver le format et de ranger correctement les liens. Les jeux éduatifs vont dans la page Ludothèque.
+Merci de conserver le format et de ranger correctement les liens. Les jeux éducatifs vont dans la page Ludothèque.
 
 # Sommaire
 
