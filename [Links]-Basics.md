@@ -48,6 +48,9 @@ Merci de conserver le format et de ranger correctement les liens. Les jeux éduc
 * http://www.reactjsprogram.com/#courses
 * https://egghead.io/series/react-fundamentals
 
+# Mailing
+* [Good email copy](http://www.goodemailcopy.com/) Des exemples de mail bien conçus
+
 # MVC
 * https://fr.wikipedia.org/wiki/Mod%C3%A8le-vue-contr%C3%B4leur
 * https://openclassrooms.com/courses/concevez-votre-site-web-avec-php-et-mysql/organiser-son-code-selon-l-architecture-mvc
@@ -56,3 +59,4 @@ Merci de conserver le format et de ranger correctement les liens. Les jeux éduc
 * https://fr.wikipedia.org/wiki/Interface_de_programmation
 * https://fr.wikipedia.org/wiki/Representational_State_Transfer
 * https://www.youtube.com/watch?v=QpAhXa12xvU
+
