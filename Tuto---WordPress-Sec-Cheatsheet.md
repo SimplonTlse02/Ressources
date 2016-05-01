@@ -14,10 +14,8 @@
 * Empechez ds utilisateurs fictifs de spammer votre site de membres  
 * Sauvegardez régulièrement son site: UpdraftPlus, VaultPress, BackUpBuddy, WordPressBackup to Dropbox  
 
-Tout les détails techniques pr effectuer ses étapes:  
-[](http://korben.info/securiser-wordpress-installation.html)
-
 Sources:  
-[](http://www.geekpress.fr/wordpress/astuce/proteger-images-hotlinking-1881)
-[](http://www.incremys.com/securiser-wordpress-comment-renforcer-securite-site-wordpress/)
-[](http://wpmarmite.com/htaccess-wordpress/)
+- http://korben.info/securiser-wordpress-installation.html
+- http://www.geekpress.fr/wordpress/astuce/proteger-images-hotlinking-1881
+- http://www.incremys.com/securiser-wordpress-comment-renforcer-securite-site-wordpress/
+- http://wpmarmite.com/htaccess-wordpress/
