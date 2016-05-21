@@ -1,17 +1,17 @@
 Ce tuto suppose que vous utilisez Ubuntu 16.04
 
-![screen panel ovh](http://imgur.com/D4nreWH)
+![screen panel ovh](http://i.imgur.com/D4nreWH.png)
 
 0. Liaison entre votre domaine et votre VPS
 
 Commencez par noter l'adresse IP de votre 
-![screen ip vps](http://imgur.com/YwrUzNq)
+![screen ip vps](http://i.imgur.com/YwrUzNq.png)
 
 Ensuite, rendez-vous dans la configuration des DNS de votre domaine
-![screen domain](http://imgur.com/YwrUzNq)
+![screen domain](http://i.imgur.com/YwrUzNq.png)
 
 Editer l'entrée correspondant à la racine de votre domaine et **de type A** en entrant l'ip de votre VPS
-![screen modif dns](http://imgur.com/YwrUzNq)
+![screen modif dns](http://i.imgur.com/YwrUzNq.png)
 
 1. Installation d'nginx
 
