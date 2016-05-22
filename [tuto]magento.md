@@ -18,9 +18,12 @@ installer les extensions avec apt install
 
 
 
--configurer le virtualhost
--server_name magento.dev     
--$path
+-configurer le virtualhost     
+
+-server_name magento.dev 
+    
+-$path 
+
 - dans sites-avaible /default copier/coller le code ci-dessous
 ```
 upstream fastcgi_backend {
