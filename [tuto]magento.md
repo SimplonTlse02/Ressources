@@ -1,5 +1,19 @@
--telecharger magento2 community edition 
--le decompresser
+- telecharger magento2 community edition 
+- le decompresser dans `/var/www/stage/`
+- faire `chown www-data: magento2 -R` pour donner les droits au serveur nginx 
+-  php7.0-gd 
+-  php7.0-mysql
+- php7.0-mcrypt 
+-  php7.0-curl
+-   php7.0-intl 
+-  php7.0-xsl
+-  php7.0-mbstring
+-  php7.0-zip 
+- php7.0-iconv
+- php7-soap
+
+
+
 
 -configurer le virtualhost
 -server_name magento.dev
@@ -39,10 +53,19 @@ server {
         set $MAGE_MODE developer;
         include /var/www/stage/magento2/nginx.conf.sample;
 }
-```
--creer la base de donnée magento et j'y accede pour linstaller
 
-mysql -u -p
+
+```
+-ajouter cette ligne au fichier /etc/hosts ajouter les noms de domaines au fichier 
+``` 
+127.0.0.1  magento.dev ceintre.magento.dev bouton.magento.dev
+```
+avant de re-demarer nginx faire la commande `nginx -t` pour verifier les syntaxe du fichier et ensuite re-demarrer nginx `service nginx restart`
+
+
+-creer la base de donnée magento et j'y accede pour linstaller 
+
+`mysql -u -p`
 create database magento 
 exit
 
@@ -50,7 +73,7 @@ exit
 -racine du projet: faire un composer install ,si le terminal le demande installer  les extensions manquantes et relancer un composer install
 
 
-
+-
 
 
 
