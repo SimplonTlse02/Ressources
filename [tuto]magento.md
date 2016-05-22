@@ -73,7 +73,7 @@ avant de re-demarer nginx faire la commande `nginx -t` pour verifier les syntaxe
 
 `mysql -u -p`
 create database magento 
-exit
+
 
 
 -aller a l'url magento.dev
