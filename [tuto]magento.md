@@ -69,18 +69,16 @@ server {
 avant de re-demarer nginx faire la commande `nginx -t` pour verifier les syntaxe du fichier et ensuite re-demarrer nginx `service nginx restart`
 
 
--creer la base de donnée magento et j'y accede pour linstaller 
+-créer la base de donnée magento et j'y accède pour l installer 
 
 `mysql -u -p`
 create database magento 
 exit
 
 
--racine du projet: faire un composer install ,si le terminal le demande installer  les extensions manquantes et relancer un composer install
+-aller a l'url magento.dev
+-configuration de base sur le site 
 
-
--
-@
 
 
 
