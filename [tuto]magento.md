@@ -1,6 +1,8 @@
 - telecharger magento2 community edition 
 - le decompresser dans `/var/www/stage/`
 - faire `chown www-data: magento2 -R` pour donner les droits au serveur nginx 
+installer les extensions avec apt install
+- php7.0-common
 -  php7.0-gd 
 -  php7.0-mysql
 - php7.0-mcrypt 
@@ -9,8 +11,9 @@
 -  php7.0-xsl
 -  php7.0-mbstring
 -  php7.0-zip 
-- php7.0-iconv
-- php7-soap
+- php7.0-soap
+
+
 
 
 
