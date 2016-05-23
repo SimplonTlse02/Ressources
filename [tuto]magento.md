@@ -231,7 +231,7 @@ location ~ (index|get|static|report|404|503)\.php$ {
 }
 ```
 
--ajouter cette ligne au fichier /etc/hosts ajouter les noms de domaines au fichier 
+-ajouter cette ligne au fichier /etc/hosts ajouter les noms de domaines au fichier  qui sera le nom de vos magasins
 ``` 
 127.0.0.1  magento.dev ceintre.magento.dev bouton.magento.dev
 ```
