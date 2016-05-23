@@ -4,6 +4,7 @@
      sudo apt-get update
      sudo apt-get install nginx
 - faire `chown www-data: magento2 -R` de votre dossier magento pour donner les droits au serveur nginx 
+
 -installer les extensions suivantes avec apt install. si un problème survient, verifier l'existence du paquet mcrypt (sudo apt install php.0-mcrypt).
 -  php7.0-common
 -  php7.0-gd 
