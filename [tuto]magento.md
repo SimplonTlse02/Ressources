@@ -1,17 +1,20 @@
 - telecharger magento2 community edition 
 - le decompresser dans `/var/www/stage/`
-- faire `chown www-data: magento2 -R` pour donner les droits au serveur nginx 
-installer les extensions avec apt install
-- php7.0-common
+-installer le serveur nginx
+     sudo apt-get update
+     sudo apt-get install nginx
+- faire `chown www-data: magento2 -R` de votre dossier magento pour donner les droits au serveur nginx 
+-installer les extensions suivantes avec apt install. si un problème survient, verifier l'existence du paquet mcrypt (sudo apt install php.0-mcrypt).
+-  php7.0-common
 -  php7.0-gd 
 -  php7.0-mysql
-- php7.0-mcrypt 
+-  php7.0-mcrypt 
 -  php7.0-curl
--   php7.0-intl 
+-  php7.0-intl 
 -  php7.0-xsl
 -  php7.0-mbstring
 -  php7.0-zip 
-- php7.0-soap
+-  php7.0-soap
 
 
 
