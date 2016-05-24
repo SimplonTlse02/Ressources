@@ -1,8 +1,8 @@
 * télecharger magento2 community edition sur le [site de magento](https://magento.com) 
 * le décompresser dans le répertoire que vous avez choisi. Nous le mettons dans `/var/www/stage/`.
 * installer le serveur nginx grace aux commandes suivantes
-     sudo apt-get update
-     sudo apt-get install nginx
+     `sudo apt-get update`
+     `sudo apt-get install nginx`
 * entrer la commande `chown www-data: magento2 -R` sur votre dossier magento pour donner les droits de modification au serveur nginx. 
 * installer les extensions suivantes avec apt install (par exemple: sudo apt install php7.0-common).
   -  php7.0-common
