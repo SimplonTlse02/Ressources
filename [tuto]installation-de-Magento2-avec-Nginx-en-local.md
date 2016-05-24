@@ -231,7 +231,7 @@ location ~ (index|get|static|report|404|503)\.php$ {
 ```
 
 
-* avant de re-demarer nginx faire la commande `nginx -t` pour verifier les syntaxe du fichier et ensuite re-demarrer nginx `service nginx restart`
+* avant de re-demarer nginx faire la commande `nginx -t` pour verifier la syntaxe du fichier et ensuite re-demarrer nginx `service nginx restart`
 
 
 * créer la base de données magento et y accèder. Entrer la commande suivante 
