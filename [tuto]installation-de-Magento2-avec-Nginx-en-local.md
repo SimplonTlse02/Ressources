@@ -62,7 +62,7 @@ server {
 
 ```
 
--a la racine du dossier magento ce situe un fichier `nginx.conf.sample` copier/coller 
+-à la racine du dossier magento se situe un fichier `nginx.conf.sample`, y copier/coller les lignes suivantes:
 
 ```
 # Magento Vars
@@ -234,12 +234,12 @@ location ~ (index|get|static|report|404|503)\.php$ {
 * avant de re-demarer nginx faire la commande `nginx -t` pour verifier les syntaxe du fichier et ensuite re-demarrer nginx `service nginx restart`
 
 
-- créer la base de données magento et y accèder. Entrer la commande suivante 
+* créer la base de données magento et y accèder. Entrer la commande suivante 
 
 `mysql -u -p`
 create database magento 
 
-- aller à l'url magento.dev
+* aller à l'url magento.dev
 * vous pouvez commencer à configurer votre site Magento 
 
 
