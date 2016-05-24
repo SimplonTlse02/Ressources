@@ -4,30 +4,26 @@
      sudo apt-get update
      sudo apt-get install nginx
 * entrer la commande `chown www-data: magento2 -R` sur votre dossier magento pour donner les droits de modification au serveur nginx. 
-* installer les extensions suivantes avec apt install. si un problème survient, verifier l'existence du paquet mcrypt (sudo apt install php.0-mcrypt).
--  php7.0-common
--  php7.0-gd 
--  php7.0-mysql
--  php7.0-mcrypt 
--  php7.0-curl
--  php7.0-intl 
--  php7.0-xsl
--  php7.0-mbstring
--  php7.0-zip 
--  php7.0-soap
+* installer les extensions suivantes avec apt install (par exemple: sudo apt install php7.0-common).
+  -  php7.0-common
+  -  php7.0-gd 
+  -  php7.0-mysql
+  -  php7.0-mcrypt 
+  -  php7.0-curl
+  -  php7.0-intl 
+  -  php7.0-xsl
+  -  php7.0-mbstring
+  -  php7.0-zip 
+  -  php7.0-soap
 
+* configurer le virtualhost     
 
-
-
-
-
--configurer le virtualhost     
-
--server_name magento.dev 
+* ajouter cette ligne au fichier /etc/hosts ajouter les noms de domaines au fichier  qui sera le nom de vos magasins
+``` 
+127.0.0.1  magento.dev ceintre.magento.dev bouton.magento.dev
+```
     
--$path 
-
-- dans sites-avaible /default copier/coller le code ci-dessous
+* dans sites-avaible, ajouter le code ci-dessous /default copier/coller 
 ```
 upstream fastcgi_backend {
         server  unix:/var/run/php/php7.0-fpm.sock;
@@ -234,22 +230,17 @@ location ~ (index|get|static|report|404|503)\.php$ {
 }
 ```
 
--ajouter cette ligne au fichier /etc/hosts ajouter les noms de domaines au fichier  qui sera le nom de vos magasins
-``` 
-127.0.0.1  magento.dev ceintre.magento.dev bouton.magento.dev
-```
-avant de re-demarer nginx faire la commande `nginx -t` pour verifier les syntaxe du fichier et ensuite re-demarrer nginx `service nginx restart`
+
+* avant de re-demarer nginx faire la commande `nginx -t` pour verifier les syntaxe du fichier et ensuite re-demarrer nginx `service nginx restart`
 
 
--créer la base de donnée magento et j'y accède pour l installer 
+- créer la base de données magento et y accèder. Entrer la commande suivante 
 
 `mysql -u -p`
 create database magento 
 
-
-
--aller a l'url magento.dev
--configuration de base sur le site 
+- aller à l'url magento.dev
+* vous pouvez commencer à configurer votre site Magento 
 
 
 
