@@ -23,7 +23,7 @@
 127.0.0.1  magento.dev ceintre.magento.dev bouton.magento.dev
 ```
     
-* dans sites-avaible, ajouter le code ci-dessous /default copier/coller 
+* dans sites-avaible, ajouter le code ci-dessous au fichier default et l'adapter à votre configuration. 
 ```
 upstream fastcgi_backend {
         server  unix:/var/run/php/php7.0-fpm.sock;
