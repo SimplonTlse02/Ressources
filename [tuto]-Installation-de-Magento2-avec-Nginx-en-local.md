@@ -82,7 +82,7 @@ server {
 * Avant de re-demarrer Nginx, entrer la commande `nginx -t` pour vérifier le bon fonctionnement du serveur et ensuite le re-demarrer avec `service nginx restart`.
 
 
-* Allez sur votre base de donnée, par exemple via l'interface de PhpMyAdmin et créer la table Magento qui de complète automatiquement. Vous pouvez aussi entrer directement la commande suivante dans votre terminal, ce qui produit le même résultat:
+* Allez sur votre base de donnée, par exemple via l'interface de PhpMyAdmin et créer la table Magento qui se complète automatiquement. Vous pouvez aussi entrer directement la commande suivante dans votre terminal, ce qui produit le même résultat:
 
 `mysql -u -p
 create database magento` 
