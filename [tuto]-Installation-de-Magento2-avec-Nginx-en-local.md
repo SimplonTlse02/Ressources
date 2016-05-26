@@ -1,4 +1,4 @@
-* télecharger magento2 community edition sur le [site de magento](https://magento.com) 
+* télécharger magento2 community-edition sur le [site de magento](https://magento.com) 
 * le décompresser dans le répertoire que vous avez choisi. Nous le mettons dans `/var/www/stage/`.
 * installer le serveur nginx grace aux commandes suivantes
      `sudo apt-get update`
