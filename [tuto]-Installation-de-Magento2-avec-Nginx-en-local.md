@@ -1,10 +1,10 @@
-* télécharger magento2 community-edition sur le [site de magento](https://magento.com) 
-* le décompresser dans le répertoire que vous avez choisi. Nous le mettons dans `/var/www/stage/`.
-* installer le serveur nginx grace aux commandes suivantes
+* télécharger magento2 community-edition sur le [site de Magento](https://magento.com). 
+* décompresser le dossier téléchargé dans le répertoire que vous avez choisi. Nous avons choisi de le mettre dans `/var/www/stage/`.
+* Nous installons ensuite le serveur nginx grace aux commandes suivantes:
      `sudo apt-get update`
      `sudo apt-get install nginx`
-* entrer la commande `chown www-data: magento2 -R` sur votre dossier magento pour donner les droits de modification au serveur nginx. 
-* installer les extensions suivantes avec apt install (par exemple: sudo apt install php7.0-common).
+* Nous donnons les droits d'accès au serveur Nginx en entrant la commande `chown www-data: magento2 -R`. 
+* Il faut ensuite installer les extensions suivantes avec la commande apt install.
   -  php7.0-common
   -  php7.0-gd 
   -  php7.0-mysql
@@ -16,21 +16,21 @@
   -  php7.0-zip 
   -  php7.0-soap
 
-* configurer le virtualhost     
-
-* ajouter cette ligne au fichier /etc/hosts ajouter les noms de domaines au fichier  qui sera le nom de vos magasins
+* Nous configurons le virtualhost, en nous rendant dans le dossier 'hosts' situé dans '/etc/hosts', nous allons ajouter la ligne suivante:
 ``` 
-127.0.0.1  magento.dev ceintre.magento.dev bouton.magento.dev
-```
+127.0.0.1  magento.dev cintre.magento.dev bouton.magento.dev
+```     
+les noms de domaine correspondront aux noms de vos sites.
     
-* dans sites-avaible, ajouter le code ci-dessous au fichier default et l'adapter à votre configuration. 
+* Aller dans '/etc/nginx/sites-avaible', ajouter le code ci-dessous au fichier 'default' et l'adapter à votre configuration. 
+Attention à noter le code correspondant au site et à l'écrire sans espace et sans majuscule ni caractères spéciaux. Par exemple, notre site 'ceintre.magento.dev' a pour code 'geantducintre'. Ce code sera réutilisé dans la configuration du site de l'interface de Magento.
 ```
 upstream fastcgi_backend {
         server  unix:/var/run/php/php7.0-fpm.sock;
 }
 
 map $http_host $MAGE_RUN_CODE {
-   ceintre.magento.dev geantduceintre;
+   cintre.magento.dev geantducintre;
    bouton.magento.dev geantdubouton;
 }
 
@@ -45,7 +45,7 @@ server {
 server {
 
         listen 80;
-        server_name ceintre.magento.dev;
+        server_name cintre.magento.dev;
         set $MAGE_ROOT /var/www/stage/magento2;
         set $MAGE_MODE developer;
         include /var/www/stage/magento2/nginx.conf.sample;
@@ -62,160 +62,10 @@ server {
 
 ```
 
--à la racine du dossier magento se situe un fichier `nginx.conf.sample`, y copier/coller les lignes suivantes:
+-Se rendre à la racine du dossier ou vous avez décompressé Magento et ouvrir le fichier `nginx.conf.sample`, et y rajouter les deux dernières lignes du paragraphe suivant:
 
 ```
-# Magento Vars
-# set $MAGE_ROOT /path/to/magento/root;
-# set $MAGE_MODE default; # or production or developer
-#
-# Example configuration:
-# upstream fastcgi_backend {
-#    # use tcp connection
-#    # server  127.0.0.1:9000;
-#    # or socket
-#    server   unix:/var/run/php5-fpm.sock;
-# }
-# server {
-#    listen 80;
-#    server_name mage.dev;
-#    set $MAGE_ROOT /var/www/magento2;
-#    set $MAGE_MODE developer;
-#    include /vagrant/magento2/nginx.conf.sample;
-# }
-
-
-root $MAGE_ROOT/pub;
-
-index index.php;
-autoindex off;
-charset off;
-
-add_header 'X-Content-Type-Options' 'nosniff';
-add_header 'X-XSS-Protection' '1; mode=block';
-
-location /setup {
-    root $MAGE_ROOT;
-    location ~ ^/setup/index.php {
-        fastcgi_pass   fastcgi_backend;
-        fastcgi_index  index.php;
-        fastcgi_param  SCRIPT_FILENAME  $document_root$fastcgi_script_name;
-        include        fastcgi_params;
-    }
-
-    location ~ ^/setup/(?!pub/). {
-        deny all;
-    }
-
-    location ~ ^/setup/pub/ {
-        add_header X-Frame-Options "SAMEORIGIN";
-    }
-}
-
-location /update {
-    root $MAGE_ROOT;
-
-    location ~ ^/update/index.php {
-        fastcgi_split_path_info ^(/update/index.php)(/.+)$;
-        fastcgi_pass   fastcgi_backend;
-        fastcgi_index  index.php;
-        fastcgi_param  SCRIPT_FILENAME  $document_root$fastcgi_script_name;
-        fastcgi_param  PATH_INFO        $fastcgi_path_info;
-        include        fastcgi_params;
-    }
-
-    # deny everything but index.php
-    location ~ ^/update/(?!pub/). {
-        deny all;
-    }
-
-    location ~ ^/update/pub/ {
-        add_header X-Frame-Options "SAMEORIGIN";
-    }
-}
-
-location / {
-    try_files $uri $uri/ /index.php?$args;
-}
-
-location /pub {
-    location ~ ^/pub/media/(downloadable|customer|import|theme_customization/.*\.xml) {
-        deny all;
-    }
-    alias $MAGE_ROOT/pub;
-    add_header X-Frame-Options "SAMEORIGIN";
-}
-
-location /static/ {
-    if ($MAGE_MODE = "production") {
-        expires max;
-    }
-    location ~* \.(ico|jpg|jpeg|png|gif|svg|js|css|swf|eot|ttf|otf|woff|woff2)$ {
-        add_header Cache-Control "public";
-        add_header X-Frame-Options "SAMEORIGIN";
-        expires +1y;
-
-        if (!-f $request_filename) {
-            rewrite ^/static/(version\d*/)?(.*)$ /static.php?resource=$2 last;
-        }
-    }
-    location ~* \.(zip|gz|gzip|bz2|csv|xml)$ {
-        add_header Cache-Control "no-store";
-        add_header X-Frame-Options "SAMEORIGIN";
-        expires    off;
-
-        if (!-f $request_filename) {
-           rewrite ^/static/(version\d*/)?(.*)$ /static.php?resource=$2 last;
-        }
-    }
-    if (!-f $request_filename) {
-        rewrite ^/static/(version\d*/)?(.*)$ /static.php?resource=$2 last;
-    }
-    add_header X-Frame-Options "SAMEORIGIN";
-}
-
-location /media/ {
-    try_files $uri $uri/ /get.php?$args;
-
-    location ~ ^/media/theme_customization/.*\.xml {
-        deny all;
-    }
-
-    location ~* \.(ico|jpg|jpeg|png|gif|svg|js|css|swf|eot|ttf|otf|woff|woff2)$ {
-        add_header Cache-Control "public";
-        add_header X-Frame-Options "SAMEORIGIN";
-        expires +1y;
-        try_files $uri $uri/ /get.php?$args;
-    }
-    location ~* \.(zip|gz|gzip|bz2|csv|xml)$ {
-        add_header Cache-Control "no-store";
-        add_header X-Frame-Options "SAMEORIGIN";
-        expires    off;
-        try_files $uri $uri/ /get.php?$args;
-    }
-    add_header X-Frame-Options "SAMEORIGIN";
-}
-
-location /media/customer/ {
-    deny all;
-}
-
-location /media/downloadable/ {
-    deny all;
-}
-
-location /media/import/ {
-    deny all;
-}
-
-location ~ cron\.php {
-    deny all;
-}
-
-location ~ (index|get|static|report|404|503)\.php$ {
-    try_files $uri =404;
-    fastcgi_pass   fastcgi_backend;
-
+   {
     fastcgi_param  PHP_FLAG  "session.auto_start=off \n suhosin.session.cryptua=off";
     fastcgi_param  PHP_VALUE "memory_limit=256M \n max_execution_time=600";
     fastcgi_read_timeout 600s;
@@ -224,23 +74,21 @@ location ~ (index|get|static|report|404|503)\.php$ {
     fastcgi_param  MAGE_RUN_TYPE website;
     fastcgi_param  MAGE_RUN_CODE $MAGE_RUN_CODE;
 
-    fastcgi_index  index.php;
-    fastcgi_param  SCRIPT_FILENAME  $document_root$fastcgi_script_name;
-    include        fastcgi_params;
 }
 ```
 
 
-* avant de re-demarer nginx faire la commande `nginx -t` pour verifier la syntaxe du fichier et ensuite re-demarrer nginx `service nginx restart`
+* Avant de re-demarrer Nginx entrer la commande `nginx -t` pour vérifier le bon fonctionnement du serveur et ensuite le re-demarrer avec `service nginx restart`.
 
 
-* créer la base de données magento et y accèder. Entrer la commande suivante 
+* Allez sur votre base de donnée, par exemple par l'interface de PhpMyAdmin et créer la table Magento. Entrer la commande suivante dans votre terminal:
 
 `mysql -u -p`
 create database magento 
 
-* aller à l'url magento.dev
-* vous pouvez commencer à configurer votre site Magento 
+* Se rendre sur l'url de votre site ou de vos magasins.
+* Ajoutez '/admin' à la fin de l'url afin d'accéder à l'interface d'administration.
+* Vous pouvez commencer à configurer votre site Magento. 
 
 
 
