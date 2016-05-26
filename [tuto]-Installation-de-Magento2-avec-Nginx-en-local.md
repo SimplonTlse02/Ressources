@@ -24,7 +24,7 @@
 les noms de domaine correspondront aux noms de vos sites.
     
 * Aller dans `/etc/nginx/sites-avaible`, ajouter le code ci-dessous au fichier `default` et l'adapter à votre configuration. 
-Attention à noter que le code correspondant au site et à l'écrire sans espace et sans majuscule ni caractères spéciaux. Par exemple, notre site 'ceintre.magento.dev' a pour code 'geantducintre'. Ce code sera réutilisé dans la configuration du site de l'interface de Magento.
+Attention à noter le code correspondant à votre site et à l'écrire sans espace et sans majuscule ni caractères spéciaux. Par exemple, notre site 'ceintre.magento.dev' a pour code 'geantducintre'. Ce code sera réutilisé dans la configuration du site de l'interface de Magento.
 ```
 upstream fastcgi_backend {
         server  unix:/var/run/php/php7.0-fpm.sock;
@@ -63,7 +63,7 @@ server {
 
 ```
 
--Se rendre à la racine du dossier ou vous avez décompressé Magento et ouvrir le fichier `nginx.conf.sample`, et y rajouter les deux dernières lignes du paragraphe suivant:
+-Se rendre à la racine du dossier ou vous avez décompressé Magento, ouvrir le fichier `nginx.conf.sample`, et y rajouter les deux dernières lignes du paragraphe suivant:
 
 ```
    {
@@ -82,7 +82,7 @@ server {
 * Avant de re-demarrer Nginx, entrer la commande `nginx -t` pour vérifier le bon fonctionnement du serveur et ensuite le re-demarrer avec `service nginx restart`.
 
 
-* Allez sur votre base de donnée, par exemple via l'interface de PhpMyAdmin et créer la table Magento qui de complète automatiquement. Vous pouvez aussi entrer la commande suivante dans votre terminal, ce qui produit le même résultat:
+* Allez sur votre base de donnée, par exemple via l'interface de PhpMyAdmin et créer la table Magento qui de complète automatiquement. Vous pouvez aussi entrer directement la commande suivante dans votre terminal, ce qui produit le même résultat:
 
 `mysql -u -p
 create database magento` 
