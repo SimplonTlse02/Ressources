@@ -1,4 +1,4 @@
-* Nous téléchargeons Magento2 community-edition sur le [site de Magento](https://magento.com). 
+* Nous téléchargeons Magento2 community-edition sur le [site de Magento](https://magento.com) après avoir créé un compte sur le site. 
 * Il faut ensuite décompresser le dossier téléchargé dans le répertoire choisi. Nous avons choisi de le mettre dans `/var/www/stage/`.
 * Nous installons ensuite le serveur Nginx grâce aux commandes suivantes:
      `sudo apt-get update`
