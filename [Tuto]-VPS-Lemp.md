@@ -68,7 +68,7 @@ puis ajoutez pour prendre en compte PHP :
     }
 ```
 
-5. Installation de dbninja
+5. Installation de dbninja (ou encore mieux mysql-workbench)
 
 5. Installation et configuration de letsencrypt
 
