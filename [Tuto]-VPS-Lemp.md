@@ -41,6 +41,33 @@ sudo apt-get install mariadb-server
 
 4. Configuration d'un virtualhost
 
+exemple de fichier de  conf
+
+modifiez le `default` avec ces infos :
+
+```
+    server_name mon_nom_de_domaine;
+    root /mon_dossier;
+
+    index index.php index.html index.htm;
+
+    location / {
+        try_files $uri $uri/ /index.php?$query_string;
+    }
+```
+
+puis ajoutez pour prendre en compte PHP :
+
+```
+    location ~ \.php$ {
+        fastcgi_split_path_info ^(.+\.php)(/.+)$;
+        fastcgi_pass unix:/var/run/php/php7.0-fpm.sock;
+        fastcgi_index index.php;
+        # include fastcgi_params;
+        include fastcgi.conf;
+    }
+```
+
 5. Installation de dbninja
 
 5. Installation et configuration de letsencrypt
