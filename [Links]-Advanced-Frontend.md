@@ -1,0 +1,1 @@
+* [(EN) A COMPREHENSIVE GUIDE TO FONT LOADING STRATEGIES](https://www.zachleat.com/web/comprehensive-webfonts/#font-face)
