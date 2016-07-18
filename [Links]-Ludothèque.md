@@ -1,12 +1,20 @@
 # Ludothèque
 
 ## JS & Python
-[](https://codecombat.com/)
+* [Code Combat](https://codecombat.com/)
+
 ## Flexbox
-[Flexbox Froggy](http://flexboxfroggy.com/)
+* [Flexbox Froggy](http://flexboxfroggy.com/)
 
 ## Git
-[Learn Git Branching](http://pcottle.github.io/learnGitBranching/)
+* [Learn Git Branching](http://pcottle.github.io/learnGitBranching/)
+
+## CSS
+* [CSS Dinner](http://flukeout.github.io/)
 
 ## CLI
-[Bandit - OverTheWire](http://overthewire.org/wargames/bandit/)
+* [Bandit - OverTheWire](http://overthewire.org/wargames/bandit/)
+
+## Misc & WTF
+* [Hexinvaders](http://www.hexinvaders.com/)
+* [Pixactly](http://pixact.ly/)
