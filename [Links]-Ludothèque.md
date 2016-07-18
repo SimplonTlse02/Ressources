@@ -1,5 +1,7 @@
 # Ludothèque
 
+## JS & Python
+[](https://codecombat.com/)
 ## Flexbox
 [Flexbox Froggy](http://flexboxfroggy.com/)
 
