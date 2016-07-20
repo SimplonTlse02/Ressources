@@ -10,7 +10,11 @@
 
 - [Howler](https://howlerjs.com/)
 
+### Upload'em all
+
+- [Uppy](http://uppy.io/)
+
+
 ### Frameworks CSS
 
 ### Frameworks JS
-
