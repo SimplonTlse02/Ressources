@@ -19,3 +19,4 @@
 ## Misc & WTF
 * [Hexinvaders](http://www.hexinvaders.com/)
 * [Pixactly](http://pixact.ly/)
+* [Learn to hack, learn to protect ypourself](https://www.hacksplaining.com/exercises)
