@@ -20,6 +20,7 @@ Merci de conserver le format et de ranger correctement les liens. Les jeux éduc
 * https://openclassrooms.com/courses/apprenez-a-creer-votre-site-web-avec-html5-et-css3
 
 # Css
+* http://fr.learnlayout.com/
 * http://www.flexboxpatterns.com/
 * http://maintainablecss.com/
 
