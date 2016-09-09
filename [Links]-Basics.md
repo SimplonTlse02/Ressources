@@ -15,6 +15,7 @@ Merci de conserver le format et de ranger correctement les liens. Les jeux éduc
 # Git
 * https://openclassrooms.com/courses/gerer-son-code-avec-git-et-github
 * https://git-scm.com/book/fr/v2
+* http://ohshitgit.com/
 
 # Html
 * https://openclassrooms.com/courses/apprenez-a-creer-votre-site-web-avec-html5-et-css3
